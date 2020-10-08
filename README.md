@@ -45,3 +45,5 @@ $ tfenv list
 `terraform plan`で実行計画を出力。何が作られるか、削除されるか、更新されるかなどが出力対象。 
 `terraform apply`で実行計画を適用する。planの内容が表示され、実行確認が入るので、'yes'を入力すると実行される。
 
+### destroy
+`terraform destroy`でリソースを削除する。applyと同じく、planが表示され、実行確認が行われる。
