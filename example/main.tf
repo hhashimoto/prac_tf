@@ -1,3 +1,7 @@
+provider "aws" {
+  region = "ap-northeast-1"
+}
+
 locals {
   example_instance_type = "t3.micro"
 }
