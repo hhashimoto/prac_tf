@@ -91,3 +91,8 @@ data "aws_iam_policy_document" "alb_log" {
     }
   }
 }
+
+resource "aws_s3_bucket" "force_destroy" {
+  bucket        = "h2-force-destroy-pragmatic-terraform"
+  force_destroy = true
+}
